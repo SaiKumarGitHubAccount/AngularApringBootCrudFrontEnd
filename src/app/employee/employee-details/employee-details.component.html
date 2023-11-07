@@ -1,0 +1,8 @@
+<h3>View Employee Details</h3>
+<div>
+    <div><label for="Id"><b>Id:</b></label>{{employee?.id}}</div>
+    <div><label for="FirstName"><b>FirstName:</b></label>{{employee?.firstName}}</div>
+    <div><label for="LastName"><b>LastName:</b></label>{{employee?.lastName}}</div>
+    <div><label for="EmailId"><b>EmailId:</b></label>{{employee?.emailId}}</div>
+</div>
+<button class="btn btn-success" (click)="cancel()" type="submit">Back To HomePage</button>
